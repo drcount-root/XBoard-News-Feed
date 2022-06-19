@@ -1,0 +1,129 @@
+body {
+    font-family: Montserrat;
+}
+
+.container {
+    margin: auto;
+    width: 97%;
+    max-width: 100%;
+}
+
+nav {
+    height: 40px;
+    background: #FFFFFF !important;
+}
+
+.newsHeading {
+    font-family: Montserrat;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #292B2E;
+    font-style: normal;
+    margin-top: 5px;
+}
+
+.navbar-rectangle {
+    background: linear-gradient(96.34deg, #E537B9 0%, #C040DF 100%);
+    border-radius: 4.5px;
+    width: 27px;
+    height: 9px;
+    position: absolute;
+    top: 10px;
+}
+
+.text-style {
+    color: #737373;
+    font-weight: bold;
+}
+
+.card {
+    border: none;
+    margin: 18px 0px;
+}
+
+.btn-link:hover {
+    border: none;
+}
+
+.carousel-inner {
+    max-width: 97%;
+    margin: auto !important;
+    padding: 0px !important;
+}
+
+@media screen and (max-width: 600px) {
+    .carousel-inner {
+        max-width: 90%;
+    }
+}
+
+button i {
+    width: 14px;
+    height: 17px;
+    font-weight: 900;
+    font-style: none;
+    color: #737373;
+    margin: 0 12px;
+}
+
+.dblock {
+    height: 450px;
+    max-height: 100%;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.imgheight {
+    max-height: 460px;
+    min-height: 200px;
+    object-fit: cover;
+}
+
+img:hover {
+    -webkit-filter: brightness(50%);
+}
+
+.today {
+    padding-left: 1.25rem;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 0px;
+    color: #252B42;
+}
+
+.subtitle {
+    padding-left: 1.25rem;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #858585;
+}
+
+.car-rectangle-left {
+    width: 10px;
+    height: auto;
+    margin-right: 20px;
+    background: #F6F8FA;
+    border-radius: 10px;
+}
+
+.car-rectangle-right {
+    width: 10px;
+    height: auto;
+    margin-left: 20px;
+    background: #F6F8FA;
+    border-radius: 10px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon
+{
+    filter: invert(100%) !important;
+}
