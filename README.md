@@ -1,0 +1,2 @@
+# XBoard---News-Feed
+XBoard is a News Feed website that will feature the latest news for select topics, from Flipboard.  During the course of this micro-experience, I have created:  Built XBoard using HTML 5, CSS 3, Bootstrap 5, JavaScript and JQuery from scratch Utilized the figma file to understand the design requirements Used Accordions and Image Carousel to improve UI Fetched news content from flipboard's RSS feed using REST APIs Deployed the website to Netlify
